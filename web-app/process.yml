@@ -1,0 +1,6 @@
+apps:
+  - script   : 'bin/www'
+    cwd      : '/src'
+    name     : 'WEB-APP'
+    exec_mode: 'cluster'
+    instances: 2
