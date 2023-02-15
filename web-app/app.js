@@ -3,7 +3,7 @@ const app = express();
 
 app.get("*", (req, res) => {
   // res.send("hello world!");
-  res.redirect('http://www.naver.com');
+  res.redirect('https://cloudmt.co.kr/');
 });
 
 module.exports=app;
